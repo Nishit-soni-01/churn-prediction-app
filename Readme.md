@@ -1,24 +1,31 @@
-# 📉 Customer Churn Prediction Dashboard
+# 📊 Customer Churn Prediction Pro
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](YOUR_STREAMLIT_APP_LINK_HERE)
+An interactive machine learning dashboard built with **Streamlit** to identify customers at risk of leaving. This project demonstrates a full data science pipeline: from synthetic data generation and model training to cloud deployment.
 
-## 📌 Project Overview
-This project is an end-to-end Machine Learning web application built to predict customer churn. It utilizes a Support Vector Classifier (SVC) trained on realistic telecommunications metrics to identify high-risk users, enabling businesses to take proactive retention measures.
+## 🚀 Live Demo
+[View the Live App Here](https://churn-prediction-app-9xlvywg4ubj6aywmt8ztuq.streamlit.app/)
 
-## 🚀 Features
-- **Interactive Web UI:** Built with Streamlit for a seamless, responsive user experience.
-- **Real-time Predictions:** Adjust customer metrics via sliders to instantly calculate churn probability.
-- **Dynamic Visualizations:** Integrates Plotly Gauge and Scatter charts to contextualize customer risk against industry averages.
-- **Robust ML Backend:** Utilizes an RBF-Kernel Support Vector Machine, properly scaled and optimized for probability scoring.
+## 🛠️ Features
+* **Real-time Inference:** Adjust customer metrics via sidebar sliders to see instant churn probability.
+* **Risk Visualization:** Interactive Plotly gauge charts and scatter plots for market positioning.
+* **Explainable AI (XAI):** A dedicated "Model Insights" section showing feature importance scores.
+* **Dual-Currency Metrics:** Calculates Expected Lifetime Value (LTV) in both USD ($) and INR (₹).
 
-## 🛠️ Technology Stack
-- **Data Science:** Python, Pandas, NumPy, Scikit-Learn
-- **Visualization:** Plotly
-- **Deployment:** Streamlit Community Cloud
+## 🧠 Model & Dataset Information
+* **Dataset:** The model is trained on a **custom synthetic dataset** of 2,000 samples. 
+* **Logic:** The data simulates realistic churn behavior where high support calls, high monthly charges, and low tenure correlate with a higher risk of leaving.
+* **Algorithm:** Support Vector Machine (SVM) with an RBF kernel and probability enabled.
+* **Accuracy:** The model achieved a **94% accuracy** on the test set.
+
+## 📦 Project Structure
+* `app.py`: The main Streamlit application code.
+* `model_training.ipynb`: The Jupyter notebook used for data generation, scaling, and training.
+* `svm_churn_model.pkl`: The saved SVM model.
+* `scaler.pkl`: The fitted StandardScaler to ensure input consistency.
+* `requirements.txt`: Python dependencies (Streamlit, Scikit-learn, Pandas, Plotly).
 
 ## 💻 How to Run Locally
-
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
-   cd your-repo-name
+   git clone [https://github.com/Nishit-soni-01/churn-prediction-app.git](https://github.com/Nishit-soni-01/churn-prediction-app.git)
+   cd churn-prediction-app

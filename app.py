@@ -5,7 +5,7 @@ import pickle
 import plotly.graph_objects as go
 import plotly.express as px
 
-# --- 1. Page Configuration ---
+
 # Set to wide layout to make room for graphs
 st.set_page_config(page_title="Churn Predictor Pro", page_icon="📉", layout="wide")
 

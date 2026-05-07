@@ -9,7 +9,7 @@ import plotly.express as px
 
 st.set_page_config(page_title="Churn Predictor Pro", page_icon="📉", layout="wide")
 
-# --- 2. Load Model and Scaler ---
+
 @st.cache_resource
 def load_components():
     with open('svm_churn_model.pkl', 'rb') as model_file:

@@ -20,7 +20,7 @@ def load_components():
 
 model, scaler = load_components()
 
-# --- 3. Sidebar Inputs ---
+
 st.sidebar.image("https://cdn-icons-png.flaticon.com/512/3121/3121693.png", width=100) # Placeholder logo
 st.sidebar.title("Customer Profile")
 st.sidebar.markdown("Adjust the metrics below to simulate a customer's profile.")

@@ -25,7 +25,7 @@ st.sidebar.image("https://cdn-icons-png.flaticon.com/512/3121/3121693.png", widt
 st.sidebar.title("Customer Profile")
 st.sidebar.markdown("Adjust the metrics below to simulate a customer's profile.")
 
-# Group inputs logically
+
 with st.sidebar.expander("Usage Metrics", expanded=True):
     tenure = st.slider("Tenure (Months)", min_value=0, max_value=72, value=24)
     support_calls = st.slider("Customer Support Calls", min_value=0, max_value=10, value=2)

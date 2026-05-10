@@ -34,7 +34,7 @@ with st.sidebar.expander("Financial Metrics", expanded=True):
     monthly_charges = st.slider("Monthly Charges ($)", min_value=15.0, max_value=120.0, value=75.0)
     total_charges = st.slider("Total Charges ($)", min_value=15.0, max_value=8000.0, value=1800.0)
 
-# Create input dataframe
+
 input_data = pd.DataFrame({
     'Tenure_Months': [tenure],
     'Monthly_Charges': [monthly_charges],

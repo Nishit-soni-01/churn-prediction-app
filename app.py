@@ -42,7 +42,7 @@ input_data = pd.DataFrame({
     'Support_Calls': [support_calls]
 })
 
-# --- 4. Robust Prediction Logic ---
+
 scaled_input = scaler.transform(input_data)
 prediction = model.predict(scaled_input)[0]
 

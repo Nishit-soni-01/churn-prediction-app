@@ -46,7 +46,7 @@ input_data = pd.DataFrame({
 scaled_input = scaler.transform(input_data)
 prediction = model.predict(scaled_input)[0]
 
-# Safely attempt to get probabilities so the app doesn't crash
+
 try:
     probabilities = model.predict_proba(scaled_input)[0]
     churn_prob = probabilities[1] * 100

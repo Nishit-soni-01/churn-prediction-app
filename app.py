@@ -51,7 +51,7 @@ try:
     probabilities = model.predict_proba(scaled_input)[0]
     churn_prob = probabilities[1] * 100
 except AttributeError:
-    # Fallback if the SVM model was trained without probability=True
+    
     churn_prob = 100.0 if prediction == 1 else 0.0
     st.sidebar.warning("⚠️ Model lacks probability scoring. Gauge will only show 0 or 100.")
 

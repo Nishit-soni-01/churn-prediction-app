@@ -60,7 +60,6 @@ st.title("📉 Customer Churn Prediction Dashboard")
 st.markdown("Leveraging **Support Vector Machine (SVM)** to identify at-risk customers in real-time.")
 st.divider()
 
-# Top Row: Prediction Result and Gauge Chart
 col1, col2 = st.columns([1, 1.5])
 
 with col1:

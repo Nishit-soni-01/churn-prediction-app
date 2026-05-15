@@ -55,7 +55,7 @@ except AttributeError:
     churn_prob = 100.0 if prediction == 1 else 0.0
     st.sidebar.warning("⚠️ Model lacks probability scoring. Gauge will only show 0 or 100.")
 
-# --- 5. Main Dashboard UI ---
+
 st.title("📉 Customer Churn Prediction Dashboard")
 st.markdown("Leveraging **Support Vector Machine (SVM)** to identify at-risk customers in real-time.")
 st.divider()

@@ -71,8 +71,7 @@ with col1:
         st.success("#### ✅ Low Churn Risk")
         st.write("This customer is likely to remain. Standard engagement strategies are sufficient.")
         
-    # Display quick metrics
-    # Display quick metrics with both USD and INR
+    
     ltv_usd = total_charges + (monthly_charges * 12)
     exchange_rate = 83.0 # You can update this to the exact current rate
     ltv_inr = ltv_usd * exchange_rate

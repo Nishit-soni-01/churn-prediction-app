@@ -80,7 +80,7 @@ with col1:
               value=f"${ltv_usd:,.2f} | ₹{ltv_inr:,.2f}")
 
 with col2:
-    # Build an interactive Plotly Gauge Chart for Probability
+   
     fig_gauge = go.Figure(go.Indicator(
         mode = "gauge+number",
         value = churn_prob,

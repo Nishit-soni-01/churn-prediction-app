@@ -73,7 +73,7 @@ with col1:
         
     
     ltv_usd = total_charges + (monthly_charges * 12)
-    exchange_rate = 83.0 # You can update this to the exact current rate
+    exchange_rate = 83.0 
     ltv_inr = ltv_usd * exchange_rate
     
     st.metric(label="Expected Lifetime Value (Est.)", 

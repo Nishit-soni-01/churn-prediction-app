@@ -89,7 +89,7 @@ with col2:
         title = {'text': "Calculated Risk Score", 'font': {'size': 20}},
         gauge = {
             'axis': {'range': [0, 100], 'tickwidth': 1, 'tickcolor': "darkblue"},
-            'bar': {'color': "rgba(0,0,0,0.8)"}, # The needle
+            'bar': {'color': "rgba(0,0,0,0.8)"}, 
             'bgcolor': "white",
             'borderwidth': 2,
             'bordercolor': "gray",

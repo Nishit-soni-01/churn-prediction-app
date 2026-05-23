@@ -95,7 +95,7 @@ with col2:
             'bordercolor': "gray",
             'steps': [
                 {'range': [0, 30], 'color': "#a8e6cf"},   
-                {'range': [30, 70], 'color': "#ffd3b6"},   # Soft Orange/Yellow
+                {'range': [30, 70], 'color': "#ffd3b6"},   
                 {'range': [70, 100], 'color': "#ff8b94"}], # Soft Red
             'threshold': {
                 'line': {'color': "red", 'width': 4},

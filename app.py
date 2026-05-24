@@ -104,7 +104,7 @@ with col2:
         }
     ))
     
-    # Adjusted margins to ensure it doesn't get clipped
+    
     fig_gauge.update_layout(height=300, margin=dict(l=30, r=30, t=50, b=30))
     st.plotly_chart(fig_gauge, use_container_width=True)
 

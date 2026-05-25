@@ -110,7 +110,7 @@ with col2:
 
 st.divider()
 
-# Bottom Row: Contextual Data Visualizations
+
 st.markdown("### Customer Context")
 col3, col4 = st.columns(2)
 

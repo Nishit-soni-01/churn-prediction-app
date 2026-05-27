@@ -127,7 +127,7 @@ with col3:
     st.plotly_chart(fig_bar, use_container_width=True)
 
 with col4:
-    # A scatter plot simulation to show where the customer sits
+   
     np.random.seed(42)
     sim_tenure = np.random.normal(24, 15, 100).clip(0, 72)
     sim_charges = np.random.normal(65, 20, 100).clip(15, 120)

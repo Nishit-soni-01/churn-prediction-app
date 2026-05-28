@@ -115,7 +115,7 @@ st.markdown("### Customer Context")
 col3, col4 = st.columns(2)
 
 with col3:
-    # A bar chart comparing this customer's monthly charge to hypothetical industry averages
+  
     chart_data = pd.DataFrame({
         'Category': ['This Customer', 'Average Retained', 'Average Churned'],
         'Monthly Charge ($)': [monthly_charges, 55.0, 85.0]

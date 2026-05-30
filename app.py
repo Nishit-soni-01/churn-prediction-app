@@ -140,7 +140,7 @@ with col4:
                              color_discrete_map={'High Risk': 'red', 'Low Risk': 'green'},
                              opacity=0.4)
     
-    # Add the current user as a prominent marker
+ 
     fig_scatter.add_scatter(x=[tenure], y=[monthly_charges], mode='markers', 
                             marker=dict(size=15, color='black', symbol='star'),
                             name='Current Customer')
